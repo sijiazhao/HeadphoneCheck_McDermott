@@ -96,14 +96,14 @@ Contact Ray Gonzalez raygon@mit.edu or Kevin J. P. Woods kwoods@mit.edu
 
     if (jsonPath === undefined) {
       var data = {'stimuli':[
-                    {'id': 1, 'src': 'https://s3.amazonaws.com/mcd-headphone-check/v1.0/assets/antiphase_HC_ISO.wav', 'correct': '2'},
-                    {'id': 2, 'src': 'https://s3.amazonaws.com/mcd-headphone-check/v1.0/assets/antiphase_HC_IOS.wav', 'correct': '3'},
-                    {'id': 3, 'src': 'https://s3.amazonaws.com/mcd-headphone-check/v1.0/assets/antiphase_HC_SOI.wav', 'correct': '1'},
-                    {'id': 4, 'src': 'https://s3.amazonaws.com/mcd-headphone-check/v1.0/assets/antiphase_HC_SIO.wav', 'correct': '1'},
-                    {'id': 5, 'src': 'https://s3.amazonaws.com/mcd-headphone-check/v1.0/assets/antiphase_HC_OSI.wav', 'correct': '2'},
-                    {'id': 6, 'src': 'https://s3.amazonaws.com/mcd-headphone-check/v1.0/assets/antiphase_HC_OIS.wav', 'correct': '3'}
+                    {'id': 1, 'src': 'https://s3.amazonaws.com/mcd-headphone-check/v1.0/assets_sijia/antiphase_HC_ISO.flac', 'correct': '2'},
+                    {'id': 2, 'src': 'https://s3.amazonaws.com/mcd-headphone-check/v1.0/assets_sijia/antiphase_HC_IOS.flac', 'correct': '3'},
+                    {'id': 3, 'src': 'https://s3.amazonaws.com/mcd-headphone-check/v1.0/assets_sijia/antiphase_HC_SOI.flac', 'correct': '1'},
+                    {'id': 4, 'src': 'https://s3.amazonaws.com/mcd-headphone-check/v1.0/assets_sijia/antiphase_HC_SIO.flac', 'correct': '1'},
+                    {'id': 5, 'src': 'https://s3.amazonaws.com/mcd-headphone-check/v1.0/assets_sijia/antiphase_HC_OSI.flac', 'correct': '2'},
+                    {'id': 6, 'src': 'https://s3.amazonaws.com/mcd-headphone-check/v1.0/assets_sijia/antiphase_HC_OIS.flac', 'correct': '3'}
                   ],
-        'calibration': {'src': 'https://s3.amazonaws.com/mcd-headphone-check/v1.0/assets/noise_calib_stim.wav'}
+        'calibration': {'src': 'https://s3.amazonaws.com/mcd-headphone-check/v1.0/assets_sijia/noise_calib_stim.flac'}
       };
       var status = 'loadedDefault';
       var error;
